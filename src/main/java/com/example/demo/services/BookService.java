@@ -20,4 +20,8 @@ public class BookService {
     public List<BookDto> findAll() {
         return bookRepository.findAll().stream().map(bookMapper::toDto).toList();
     }
+
+    public void findByName() {
+
+    }
 }
